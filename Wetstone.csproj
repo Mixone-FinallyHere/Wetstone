@@ -17,9 +17,7 @@
     <Version>1.0.0</Version>
 
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <LangVersion>latest</LangVersion>
-
-    <UnhollowedDllPath>D:\Games\Steam\steamapps\common\VRising\BepInEx\unhollowed</UnhollowedDllPath>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -53,10 +51,6 @@
 
     <Reference Include="com.stunlock.network">
       <HintPath>$(UnhollowedDllPath)\com.stunlock.network.dll</HintPath>
-    </Reference>
-
-    <Reference Include="UnityEngine.InputLegacyModule.dll">
-      <HintPath>$(UnhollowedDllPath)\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
 
     <Reference Include="Unity.Collections">
